@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DataForm xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+          xmlns="http://www.enova.pl/schema/form.xsd"
+          xsi:schemaLocation="http://www.enova.pl/schema/ http://www.enova.pl/schema/form.xsd"
+          RightName="Page:EmployeeFeedback"
+          Priority="100000"
+          DataType="Soneta.Business">
+	<Page Name="EmployeeFeedback" CaptionHtml="EmployeeFeedback" DataContext="{new FeedbackEmployeeView}">
+		<Group Height="170px">
+			<Field CaptionHtml="" EditValue="{LogoImage}" Class="ImageEdit" Width="330px" Height="*"/>
+			<Label LabelHeight="3" Class="MultilineLabel" Width="495px" CaptionHtml="Podziel się szczerym i konstruktywnym feedbackiem, wskazując mocne strony oraz obszary do poprawy u współpracowników. Dzięki temu narzędziu możesz pomóc kolegom rozwijać swoje umiejętności i wpływać na lepsze wyniki całego zespołu."/>
+			<Row>
+				<Field CaptionHtml="" EditValue="{HeaderBarImage}" Class="ImageEdit" Width="520px" Height="8px"/>
+			</Row>
+		</Group>
+		<Group>
+			<Label CaptionHtml="Oceniany"/>
+			<Field CaptionHtml="" Width="520px" IsReadOnly="false" EditValue="{Employee}"/>
+			<Gap Height="0.2" />
+			<Row>
+				<Field CaptionHtml="Współpraca w zespole" Width="7" IsReadOnly="false" EditValue="{Rating1}"/>
+				<Gap Width="5"/>
+				<Field CaptionHtml="Terminowość" Width="7" IsReadOnly="false" EditValue="{Rating2}"/>
+			</Row>
+			<Row>
+				<Field CaptionHtml="Kompetencje zawodowe" Width="7" IsReadOnly="false" EditValue="{Rating3}"/>
+				<Gap Width="5"/>
+				<Field CaptionHtml="Komunikacja" Width="7" IsReadOnly="false" EditValue="{Rating4}"/>
+			</Row>
+			<Gap Height="20px"/>
+			<Label CaptionHtml="Wprowadź uwagi dotyczące pracy wybranego pracownika."/>
+			<Field CaptionHtml="" Width="520px" Height="5" IsReadOnly="false" EditValue="{FeedbackText}" />
+			<Gap Height="10px"/>
+			<Field CaptionHtml="" EditValue="{RateImage}" Class="ImageEdit" Width="530px"  Height="105px"/>
+			<Gap Height="10px"/>
+			<Command Width="480px" Height="45px" CaptionHtml="Dodaj ocenę pracownika" MethodName="AddNewFeedback"/>
+			<Gap Height="10px" />
+		</Group>
+	</Page>
+</DataForm>

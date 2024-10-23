@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "enova365EmployeeFeedback": {
+      "commandName": "Project"
+    },
+    "Profil 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files (x86)\\Soneta\\enova365 2406.2.5\\SonetaExplorer.exe"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿<DataForm Contexts="License.All" xmlns="http://www.enova.pl/schema/form.xsd">
+	<Grid Name="List" IsToolbarVisible="true" EditButton="Visible" NewButton="Visible" DataContext="{new enova365EmployeeFeedback.UI.Lookups.FeedbackLookupViewInfo}" NewInPlace="true" OrderBy="DateSubmitted">
+		<Field CaptionHtml="Pracownik" EditValue="{Employee}"/>
+		<Field CaptionHtml="Współpraca w zespole" EditValue="{Rating1}" />
+		<Field CaptionHtml="Terminowość" EditValue="{Rating2}" />
+		<Field CaptionHtml="Kompetencje zawodowe" EditValue="{Rating3}" />
+		<Field CaptionHtml="Komunikacja" EditValue="{Rating4}" />
+		<Field CaptionHtml="Opis" EditValue="{FeedbackText}" />
+		<Field CaptionHtml="Data oceny" EditValue="{DateSubmitted}" />
+	</Grid>
+</DataForm>

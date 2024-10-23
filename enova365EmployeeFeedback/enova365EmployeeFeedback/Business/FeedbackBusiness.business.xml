@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Zawiera informację nagłówkową pliku XML oraz informację o użytym kodowaniu znaków. -->
+<module xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.enova.pl/schema/business_struct.xsd" xsi:schemaLocation="http://www.enova.pl/schema/ http://www.enova.pl/schema/business_struct.xsd"
+ name="FeedbackBusiness" namespace="enova365EmployeeFeedback.Business" versionName="FeedbackBusiness" versionNumber="15">
+	<import>../..</import>
+	<using>Soneta.Kadry</using>
+	<using>Soneta.Business.App</using>
+	<table name="FeedbackEmp" tablename="FeedbacksEmp" caption="Tabela oceny pracowniczej">
+		<col name="Employee" type="Pracownik" description="Oceniany" required="true"/>
+		<col name="Rating1" type="int" required="true" description="Ocena"/>
+		<col name="Rating2" type="int" required="true" description="Ocena"/>
+		<col name="Rating3" type="int" required="true" description="Ocena"/>
+		<col name="Rating4" type="int" required="true" description="Ocena"/>
+		<col name="FeedbackText" type="string" length="255" description="Uwagi"/>
+		<col name="DateSubmitted" type="date" description="Data oceny" required="true"/>
+	</table>
+</module>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enova365EmployeeFeedback", "enova365EmployeeFeedback\enova365EmployeeFeedback\enova365EmployeeFeedback.csproj", "{5CD971C5-106C-429F-9F6C-2287563B7B97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6A8783C1-5241-49F2-A469-D9A57FA85503}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enova365EmployeeFeedback.UI", "enova365EmployeeFeedback\enova365EmployeeFeedback.UI\enova365EmployeeFeedback.UI.csproj", "{741C3768-6BC9-4FE9-AB75-5D686AFCCC90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enova365EmployeeFeedback.Tests", "enova365EmployeeFeedback\enova365EmployeeFeedback.Tests\enova365EmployeeFeedback.Tests.csproj", "{6C43B6DE-C88C-47AE-8CCF-5F0D2C4ACACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CD971C5-106C-429F-9F6C-2287563B7B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD971C5-106C-429F-9F6C-2287563B7B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD971C5-106C-429F-9F6C-2287563B7B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD971C5-106C-429F-9F6C-2287563B7B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741C3768-6BC9-4FE9-AB75-5D686AFCCC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741C3768-6BC9-4FE9-AB75-5D686AFCCC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741C3768-6BC9-4FE9-AB75-5D686AFCCC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741C3768-6BC9-4FE9-AB75-5D686AFCCC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C43B6DE-C88C-47AE-8CCF-5F0D2C4ACACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C43B6DE-C88C-47AE-8CCF-5F0D2C4ACACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C43B6DE-C88C-47AE-8CCF-5F0D2C4ACACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C43B6DE-C88C-47AE-8CCF-5F0D2C4ACACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D5364A5-F2BB-479A-B005-A4A1878DA273}
+	EndGlobalSection
+EndGlobal

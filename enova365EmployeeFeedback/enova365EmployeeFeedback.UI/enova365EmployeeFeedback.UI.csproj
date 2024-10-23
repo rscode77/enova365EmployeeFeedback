@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Soneta.Sdk">
+  <PropertyGroup>
+    <TargetFramework>$(SonetaTargetFramework)</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Views\Images\header_bar.png" />
+    <None Remove="Views\Images\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\Images\header_bar.png" />
+    <EmbeddedResource Include="Views\Images\logo.png" />
+    <EmbeddedResource Include="Views\Images\rate1.png" />
+    <EmbeddedResource Include="Views\Images\rate2.png" />
+    <EmbeddedResource Include="Views\Images\rate3.png" />
+    <EmbeddedResource Include="Views\Images\rate4.png" />
+    <EmbeddedResource Include="Views\Images\rate5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\enova365EmployeeFeedback\enova365EmployeeFeedback.csproj" />
+  </ItemGroup>
+</Project>
